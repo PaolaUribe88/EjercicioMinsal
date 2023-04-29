@@ -26,6 +26,9 @@
     margin-top: 5%;
     margin-right: 15%;
 }
+.noticiasPrincipal{
+
+}
 .noticiasTitulo{
     color: grey;
     text-align: start;
@@ -47,4 +50,8 @@
 }
 .listaRedes{
     background-color: gray;
+}
+.contenedorImgTexto{
+    display: flex;
+    flex-direction: row;
 }
