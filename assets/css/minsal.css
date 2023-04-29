@@ -21,7 +21,8 @@
     flex-direction: row;
     font-size: 90%;
     text-align: left;
-    padding-left: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
     margin-top: 5%;
     margin-right: 15%;
 }
@@ -32,11 +33,10 @@
 }
 .contenedorDatosIz{
     display: flex;
-    
     font-size: 30px;
     text-align: left;
     background-color: chartreuse;
-    margin-top: 5%;
+    margin-top: 3%;
 } 
 
 .contenedorTextoIz{
@@ -44,4 +44,7 @@
 }
 .textoIz{
     background-color: antiquewhite;
+}
+.listaRedes{
+    background-color: gray;
 }
