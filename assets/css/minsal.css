@@ -1,36 +1,62 @@
 .contenedorPrincipal{
-  
     display:flex;
     flex-direction:  row;
     justify-content: space-between;
-    background-color: brown;
+    
 }
 .principaIzquierda{
     width: 60%;
-    flex-direction: row;
-    font-size: 90%;
     text-align: center;
-    margin-left:15%;
-    margin-top: 5%;
+    margin-left:10%;
     border: 2px solid black;
     
 }
+.padreNoticias{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+.contenedorTextoIz{
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+    color: blue;    
+}
+.img1{
+    display: flex;
+    width: 100%;
+}
+.contenedorTextoIzDr{
+    display: flex;
+    width: 100%;
+}
+.redesSocialesIz{
+    width: 50%;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoIz{
+    color: lightslategray;
+}
 .principalDerecha{
     width: 40%;
-    background-color: darkgreen;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     font-size: 90%;
     text-align: left;
     padding-left: 1%;
     padding-right: 1%;
-    margin-top: 5%;
+
     margin-right: 15%;
 }
-.noticiasPrincipal{
-
+.img{
+    width: 100%;
 }
 .noticiasTitulo{
-    color: grey;
     text-align: start;
  
 }
@@ -38,18 +64,35 @@
     display: flex;
     font-size: 30px;
     text-align: left;
-    background-color: chartreuse;
     margin-top: 3%;
 } 
+.contenedorTextoLateral{
+    color: blue;
+    font-size: 25px;
+}
 
-.contenedorTextoIz{
-    background-color: blueviolet;
-}
-.textoIz{
-    background-color: antiquewhite;
-}
+
 .listaRedes{
-    background-color: gray;
+    text-align: left;
+    
+}
+.twitter{
+    width: 70%;
+    padding: 2%;
+    background-color: rgb(226, 227, 228);
+    
+}
+.instagram{
+    width: 70%;
+    padding: 2%;
+    background-color: rgb(226, 227, 228);
+    
+}
+.facebook{
+    width: 70%;
+    padding: 2%;
+    background-color: rgb(226, 227, 228);
+    
 }
 .contenedorImgTexto{
     display: flex;
