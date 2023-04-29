@@ -1,0 +1,47 @@
+.contenedorPrincipal{
+  
+    display:flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    background-color: brown;
+}
+.principaIzquierda{
+    width: 60%;
+    flex-direction: row;
+    font-size: 90%;
+    text-align: center;
+    margin-left:15%;
+    margin-top: 5%;
+    border: 2px solid black;
+    
+}
+.principalDerecha{
+    width: 40%;
+    background-color: darkgreen;
+    flex-direction: row;
+    font-size: 90%;
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+.noticiasTitulo{
+    color: grey;
+    text-align: start;
+ 
+}
+.contenedorDatosIz{
+    display: flex;
+    
+    font-size: 30px;
+    text-align: left;
+    background-color: chartreuse;
+    margin-top: 5%;
+} 
+
+.contenedorTextoIz{
+    background-color: blueviolet;
+}
+.textoIz{
+    background-color: antiquewhite;
+}
